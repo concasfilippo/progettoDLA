@@ -1,0 +1,17 @@
+.gitattributes
+/.idea
+/files
+/pre_processing/dataset
+id004-losses.png
+id007-losses.png
+id043-losses.png
+models/aiut.ipynb
+/models/runs
+/models/saves_model2.2
+/pre_processing/dataset_train_e_val_assieme
+pre_processing/Salesforce_blip2_opt_2.7b_GS.csv
+models/saves/classifier_042.pt
+pre_processing/model/classifier.pt
+pre_processing/model/label_encoder.pkl
+/models/altro_da_risistemare
+/models/gibberish
