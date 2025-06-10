@@ -1,12 +1,74 @@
-# progettoNLP
-Materiale del progetto per il corso di Natural Language Processing
+# progettoDLA
+Materiale del progetto per il corso di Deep Learning and Applications
 
-# Installazion
+# Prerequisiti ed installazione
+- Python >= 3.8
+
+### 1. Clonazione della repository
+
+```bash
+git clone https://github.com/concasfilippo/progettoDLA.git
+cd nome-repo
+```
+
+
+
+### 2. Crea un ambiente virtuale
+
+### 🪟 Windows (CMD o PowerShell)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 🍎 macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 🐧 Ubuntu/Linux
+
+```bash
+sudo apt update
+sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3. Installazione delle dipendenze
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+### 4. Avvio di Jupyter Notebook
+
+### Se Jupyter non è installato:
+
+```bash
+pip install notebook
+```
+
+### Avvia il server Jupyter:
+
+```bash
+jupyter notebook
+```
+
+
+# Installazione
 pip install -r requirements.txt
 
 # Struttura del progetto
 
-Dataset (immagini e testo) non caricato. Presenta la seguente struttura, che si può replicare con lo script pre_processing.ipynb indicato di sotto:
+Dataset (immagini e testo) non caricato. I file sono presenti nel sito degli organizzatori, che lo rendono diponibile dopo una registrazione automatica ([Link SemEval2024](https://propaganda.math.unipd.it/semeval2024task4/)). Presenta la seguente struttura, che si può replicare con lo script pre_processing.ipynb indicato di sotto:
 - /pre-processing/datasets/train/[classe]/ #tutte le immagini di classe [classe] per il training
 - /pre-processing/datasets/val/[classe]/ #tutte le immagini di classe [classe] per il validation set
 - /pre-processing/datasets/test/[classe]/ #tutte le immagini di classe [classe] per il test set
